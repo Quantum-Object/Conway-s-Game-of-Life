@@ -1,29 +1,24 @@
-# Snake Game
+Here's a concise README for Conway's Game of Life:  
 
-A classic Snake game implemented in C++ using the Raylib library. Navigate the snake to eat food, grow longer, and avoid running into walls or yourself!
+---
 
-## Features
+# Conway's Game of Life  
 
-- **Simple and Intuitive Controls**: Use arrow keys to navigate the snake.
-- **Growing Snake**: Each time the snake eats food, it grows longer.
-- **Collision Detection**: Game over if the snake collides with the wall or itself.
-- **Dynamic Difficulty**: The speed of the snake increases as it grows.
+Conway’s Game of Life is a zero-player cellular automaton where cells evolve based on simple rules.  
 
-## Screenshots
+## Rules  
+1. **Alive cells:**  
+   - Survive with 2 or 3 neighbors, otherwise die.  
+2. **Dead cells:**  
+   - Revive with exactly 3 neighbors.  
 
-![Game Screenshot](screenshot.png)
+## Usage  
+Run a simulation with an initial grid, and watch patterns emerge over generations.  
 
-## Getting Started
+## Examples  
+- **Still lifes** (stable patterns)  
+- **Oscillators** (repeat cycles)  
+- **Gliders** (move across the grid)  
 
-### Prerequisites
-
-- C++ compiler (g++, clang++, etc.)
-- Raylib library installed
-  - Follow the installation guide on the [Raylib website](https://raylib.com/).
-
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/snake-game.git
-   cd snake-game# Game-of-Life
+## More Info  
+[Wikipedia: Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
